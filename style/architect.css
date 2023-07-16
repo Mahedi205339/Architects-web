@@ -106,6 +106,61 @@ main{
     font-weight: 400;
     line-height: 26px; /* 162.5% */
 }
+/* top feature section  */
+.fea-container{
+    display: flex;
+    margin-top: 10%;
+    gap: 50px ;
+}
+.fea-top-sec{
+    width: 590px;
+    line-height: 26px;
+}
+.fea-top-sec-title{
+    color: var(--dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+.fea-headings{
+    color: var(--dark-01, #131313);
+    font-size: 20px;
+    font-weight: 600;
+}
+ .fea-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+}
+.fea-pic img{
+    height:90%;
+}
+ .experience{
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E;
+    margin-bottom:-15% ;
+    position: relative;
+    bottom: 100px;
+}
+.experience-headings{
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px; /* 107.692% */
+    z-index: 1;
+}
+.experience-pera{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* feature section  */
 .facts-cards-container{
     display: flex;
     justify-content: space-around;
@@ -171,6 +226,15 @@ main{
             font-size: 1.75rem;
             color: #424242;
     }
+    .fea-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 576px;
+    }
+    .fea-top-sec{
+        width: 100%;
+    }
+    
 }
 /* tablet or meadium devices */
 @media screen and (min-width:576px) and (max-width:1200px){
