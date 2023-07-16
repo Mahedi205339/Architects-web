@@ -146,6 +146,31 @@ main{
         padding-right: 30px;
         padding-left: 30px;
     }
+    .facts-cards-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin: 10%;
+    }
+    .card{
+        width: 150px;
+        height: 150px;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .text-lightgray{
+        text-align: center;
+    }
+    .facts-cards-container .card-title{
+        color: #727272;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .facts-cards-container .card-stats{
+            font-size: 1.75rem;
+            color: #424242;
+    }
 }
 /* tablet or meadium devices */
 @media screen and (min-width:576px) and (max-width:1200px){
@@ -158,7 +183,34 @@ main{
     .teams-img-container img{
         width: 300px;
     }
+    .section-title{
+        text-align: center;
+    }
+    .text-lightgray{
+        text-align: center;
+    }
+    .facts-cards-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin: 15%;
+    }
+    .card{
+        width: 240px;
+        height: 240px;
+    }
+    .facts-cards-container .card-title{
+        color: #727272;
+        font-weight: 400;
+        font-size: 1.25rem;
+    }
+    .facts-cards-container .card-stats{
+            font-size: 2.8rem;
+            color: #424242;
+    }
 }
+/* lower medium screen */
+
 @media screen and (min-width:576px) and (max-width:740px) {
     .main-sec{
         flex-direction: column;
@@ -166,5 +218,29 @@ main{
     .teams-img-container img{
         width: 240px;
     }
-    
+    .section-title{
+        text-align: center;
+    }
+    .text-lightgray{
+        text-align: center;
+    }
+    .facts-cards-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin: 5%;
+    }
+    .card{
+        width: 200px;
+        height: 200px;
+    }
+    .facts-cards-container .card-title{
+        color: #727272;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .facts-cards-container .card-stats{
+            font-size: 2rem;
+            color: #424242;
+    }
 }
